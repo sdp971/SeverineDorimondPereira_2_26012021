@@ -1,0 +1,12 @@
+.site-container
+{
+display:flex;
+flex: column;
+align-items: flex-start;
+width: 200px;
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
