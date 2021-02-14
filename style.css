@@ -442,9 +442,18 @@
     justify-content:space-around;
   
   }
+
+  .contenu-article-hotel-populaire h3{
+    width: 150px;
+   text-align: justify;
+   overflow-wrap: break-word;
+   word-wrap: break-word;
+   white-space: normal;
+   line-height:100%;
+   }
   
   #rating-hotel-populaire i {
-    line-height:7em;
+    line-height:3em;
   }
   
   /* Styles pour le bloc de contenu "activités à Marseille" */ 
