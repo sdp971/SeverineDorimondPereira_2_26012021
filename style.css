@@ -301,7 +301,7 @@ border-radius: 25px 25px 25px 25px;
   border-radius:25px;
 }
 article{
-  width:242px;
+width:242px;
   height:200px;
   background-color:white;
   padding-top:5px;
@@ -340,9 +340,9 @@ height:110px;
 
 .note-bas-section {
  float:left;
-  width:750px;
-  font-weight:bolder;
-  font-size:18px;
+ width:750px;
+ font-weight:bolder;
+ font-size:18px;
 }
 .contenu-article-hebergements{
 margin-left:10px;
@@ -408,10 +408,11 @@ display:flex;
 
 #partie-hotels{
   width:1300px;
-  
+height:800px;
   display:flex;
   flex-direction:row;
   justify-content:space-between;
+  
 }
 
 #bloc-les-plus-populaires{
@@ -475,7 +476,7 @@ text-align:right;
 #partie-activites{
   width:1300px;
   display:flex;
-  height:800px;
+  height:600px;
   
 }
 
@@ -514,31 +515,60 @@ padding-bottom:10px;
 }
 
 #column{
-  display:flex;
-  flex-direction:column;
+   display:flex;
 }
 
 
-  
-  
-#bas-de-page {
-  display:flex;
- justify-content:space-around;
-  flex-direction:row;
-  width:1300px;
-  flex-wrap:wrap;
-  justify-content:space-around;
+
+footer {
+
   background-color:#F2F2F2;
-   margin-top:20px;
-  height:200px;
-  padding:50px;
-  border-radius:25px;
+   width:1300px;
+  height:210px;
+  
+
 }
 
+#footer-container{
+width:1000px;
+  height:210px;
+  display:flex;
+  justify-content:space-between;
+  align-content:center;
+  padding-left:25px;
+}
+ 
 .footer-links{
-  list-style-type: none;
+display:flex;
+flex-direction:column;
+justify-content:center;
+
+  
+}
+  
+
+
+.footer-links li {
+  list-style-type:none;
+  line-height:30px;
+  font-size:14px;
+   color:black;
+  
+}
+
+/* Suppression de l'espace créé par la balise h3 */ 
+.footer-links {
+ display:inline;
+}
+
+.footer-links a {
   text-decoration:none;
 }
+
+.footer-links h3 {
+  font-weight:bolder;
+}
+
 
 .contenu-article-hotel-populaire h3{
  width: 150px;
@@ -552,7 +582,6 @@ line-height:100%;
 .contenu-article-hotel-populaire{
  margin-left:auto;
   margin-right:auto;
- padding-right:15px;
 
 }
 
@@ -575,8 +604,11 @@ line-height:100%;
   height:150px;
   border-radius: 10px 10px 0px 0px;
 }
+
 #bloc-activites h2 {
-  display:flex;
-  flex-direction:column;
-  align-self:flex-end;
-  }
+display:flex;
+flex-direction:column;
+align-self:flex-end;
+}
+
+
