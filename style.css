@@ -475,22 +475,24 @@ text-align:right;
 #partie-activites{
   width:1300px;
   display:flex;
-  height:700px;
+  height:800px;
   
 }
 
 #bloc-activites{
-  background-color:white;
+ background-color:white;
   display:flex;
  flex-direction:row;
   flex-wrap:wrap;
   justify-content:space-between;
   width:1300px;
+  
 }
   
  #bloc-activites h2 {
   float:left;
   width:1300px; 
+   
     
   
 }
@@ -500,12 +502,15 @@ border-radius:10px 10px 0px 0px;
 width:300px;
 height:390px;
 
+
+
 }
 
 .activites-vertical{
 width:300px;
 height:420px;
 border-radius:10px 10px 10px 10px;
+padding-bottom:10px;
 }
 
 #column{
@@ -525,7 +530,6 @@ border-radius:10px 10px 10px 10px;
   justify-content:space-around;
   background-color:#F2F2F2;
    margin-top:20px;
- 
   height:200px;
   padding:50px;
   border-radius:25px;
@@ -549,4 +553,30 @@ line-height:100%;
  margin-left:auto;
   margin-right:auto;
  padding-right:15px;
+
 }
+
+.article-activites{
+  width:300px;
+  height:200px;
+  background-color:white;
+  padding-top:5px;
+  
+  display:flex;
+  flex-direction:column;
+  border-radius:10px 10px 25px 25px; 
+  
+  box-shadow: 3px 3px 3px #DEEBFF;
+  opacity:1;
+ 
+}
+.article-activites img{
+   width:300px;
+  height:150px;
+  border-radius: 10px 10px 0px 0px;
+}
+#bloc-activites h2 {
+  display:flex;
+  flex-direction:column;
+  align-self:flex-end;
+  }
