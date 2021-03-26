@@ -303,6 +303,8 @@ margin-right: 7px; /*space between*/
     
 }
 
+
+
 #hebergements_container{
 margin: 10px;
 padding:20px ;
@@ -359,6 +361,41 @@ line-height:1px;
 font-size: 1em;
 font-weight:bold;
 }
+
+@media only screen and (min-device-width : 375px) and (max-device-width : 667px){
+  #bloc_hebergements{
+    display: flex;
+    flex-direction: column;
+   
+    
+  }
+
+  #index_hebergements{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 200px;
+  
+    
+  }
+
+  #index_activites2{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 200px;
+  }
+
+  #footer_container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+   
+  }
+
+
+  
+  }
+ 
+
 
 /* Styles pour le titre bloc hebergements */   
 
