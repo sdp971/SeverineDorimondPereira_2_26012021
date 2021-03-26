@@ -17,7 +17,11 @@ body
     font-size: 1.21em;
     
 }
-
+@media all and (max-device-width: 480px){
+  #bloc_page{
+    width: auto;
+  }
+}
 
 
 /* Header */
@@ -49,12 +53,13 @@ header
     height: 60px;
 }
 
-@media only screen and (min-device-width : 375px) and (max-device-width : 667px){
+@media all and (max-device-width: 480px){
   header {
     display: flex;
     flex-direction: column;
     flex-wrap:wrap ;
     position:relative;
+    width: auto;
     
   }
   #titre-principal{
@@ -72,16 +77,14 @@ header
   .item_1{
 position: absolute;
 left: 0;
-padding-left: 210px;
+padding-left: 200px;
   }
 
 .item_2{
- padding-right: 260px;
+ padding-right: 220px;}
 
 }
-
-}
-
+ 
    
 
 
@@ -291,6 +294,8 @@ margin-right: 7px; /*space between*/
         
               
     }
+
+    
 /* Corps */
 
 #bloc_hebergements
@@ -362,7 +367,7 @@ font-size: 1em;
 font-weight:bold;
 }
 
-@media only screen and (min-device-width : 375px) and (max-device-width : 667px){
+@media all and (max-device-width: 480px){
   #bloc_hebergements{
     display: flex;
     flex-direction: column;
