@@ -20,6 +20,7 @@ body
 @media all and (max-device-width: 480px){
   #bloc_page{
     width: auto;
+    
   }
 }
 
@@ -61,6 +62,8 @@ header
     position:relative;
     width: auto;
     background-color: green;
+    
+    
   }
   #titre-principal{
     width: 80%;
@@ -70,18 +73,23 @@ header
     position:absolute;
     right:50px;
     top: 30px;
-    width: 50%;
-    padding-right: 100px;
-    width: 20%;
+    
+   
+    
+    
   }
   .item_1{
 position: absolute;
 left: 0;
-padding-left: 200px;
+padding-left: 90px;
+
   }
 
-.item_2{
- padding-right: 220px;}
+
+
+ nav {
+   background-color: aqua;
+ }
 
 }
  
@@ -236,7 +244,34 @@ padding: 0.4rem;
       
 }
 
+@media all and (max-device-width: 480px){
+  #bloc_filtres{
+    flex-direction: column;
+    
+    
+    
+  }
 
+  #filtres_container ul {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .fa-money-bill-wave,.fa-child,.fa-heart,.fa-dog{
+    
+    display: flex;
+    text-align: center;
+    color: green;
+    background-color: #DEEBFF;
+    width: 36px;
+    height: 36px;
+    border: 1px solid#DEEBFF;
+    border-radius: 60%;
+    margin-right: 7px; /*space between*/
+    }
+    
+
+
+}
 
 .fa-money-bill-wave,.fa-child,.fa-heart,.fa-dog{
     
