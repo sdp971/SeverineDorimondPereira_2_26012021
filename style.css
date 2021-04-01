@@ -195,7 +195,7 @@ nav a:hover
     background:#0065FC;
     border: 0;
     color: white;
-    padding: 0.5rem;
+    padding: 0.9rem;
     border-radius: 0px 10px 10px 0px;
     grid-column:4/5;
     grid-row:1;
@@ -203,11 +203,12 @@ nav a:hover
 
 .searchbox{
     border:0px;
-    padding: 0.5rem;
+    padding: 0.3rem;
     grid-column:2/4;
     grid-row:1;
     outline:none;
     overflow:hidden;
+    
 }
 
 .searchcontainer:focus-within .searchbox::placeholder {
@@ -222,6 +223,7 @@ nav a:hover
     border: 1px solid #F2F2F2;
   border-radius: 5px;
   margin-bottom: 10px;
+  
  
 }
 
@@ -246,6 +248,8 @@ padding: 0.4rem;
     font-size:16px;
         
   }
+
+  
 
   /* Styles pour les filtres du formulaire */
 
@@ -304,14 +308,22 @@ h1 br {
 
 @media all and (max-device-width: 480px){
  
- #bloc_formulaire{
+ form {
+   padding-top: 10px;
+   margin:30px
+}
+ 
+ 
+  #bloc_formulaire{
   padding-top: 20px;
 }
 
-  #bloc_formulaire h1{
+  #bloc_formulaire h1,p{
     text-align: center;
 
   }
+
+  
 
  
  h1 br {
@@ -329,6 +341,10 @@ h1 br {
   #filtres_container ul {
     flex-direction: column;
     flex-wrap: wrap;
+  
+  
+   
+  
   }
 
   .fa-money-bill-wave,.fa-child,.fa-heart,.fa-dog{
