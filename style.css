@@ -297,7 +297,28 @@ padding: 0.4rem;
       
 }
 
+h1 br {
+  display:none;
+ }
+
+
 @media all and (max-device-width: 480px){
+ 
+ #bloc_formulaire{
+  padding-top: 20px;
+}
+
+  #bloc_formulaire h1{
+    text-align: center;
+
+  }
+
+ 
+ h1 br {
+   display:inline-block;
+  }
+
+
   #bloc_filtres{
     flex-direction: column;
     
@@ -309,6 +330,7 @@ padding: 0.4rem;
     flex-direction: column;
     flex-wrap: wrap;
   }
+
   .fa-money-bill-wave,.fa-child,.fa-heart,.fa-dog{
     
     display: flex;
@@ -322,9 +344,9 @@ padding: 0.4rem;
     margin-right: 7px; /*space between*/
     }
     
+  }
 
 
-}
 
 .fa-money-bill-wave,.fa-child,.fa-heart,.fa-dog{
     
