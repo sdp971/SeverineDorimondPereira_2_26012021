@@ -61,7 +61,9 @@ header
     flex-wrap:wrap ;
     position:relative;
     width: auto;
-    background-color: green;
+    border-bottom: 2px solid #DEEBFF ;
+    margin-bottom: 10px;
+
     
     
   }
@@ -81,19 +83,66 @@ header
   }
   .item_1{
 position: absolute;
-left: 0;
-margin-left: 19px;
-
-  }
-
-.item_2 {
-padding-right: 37px;
+right: 25px;
+position: relative;
+padding: 10px;
 
 }
 
- nav {
-   background-color: aqua;
- }
+ .item_2 {
+padding-right: 37px;
+position: relative;
+padding: 10px;
+
+
+
+
+}
+
+.item_1::after {
+  content: "";
+  position: absolute;
+  background: #0065fc;
+  height: 2px;
+  left: 0px;
+  right: 0px;
+  bottom: -18px;
+  transition: .25s ease-in-out;
+  opacity: 0;
+  transform: scaleX(.5);
+}
+
+.item_1:hover::after {
+  opacity: 1;
+  transform: scaleX(1);
+}
+
+.item_2::after {
+  content: "";
+  position: absolute;
+  background: #0065fc;
+  height: 2px;
+  left: 0px;
+  right: 0px;
+  bottom: -18px;
+  transition: .25s ease-in-out;
+  opacity: 0;
+  transform: scaleX(.5);
+}
+
+.item_2:hover::after {
+  opacity: 1;
+  transform: scaleX(1);
+}
+
+
+
+ nav a:hover
+{
+    border-top:none;
+}
+
+ 
 
 }
  
@@ -125,7 +174,7 @@ nav a:hover
 {
     border-top:solid 2px #0065FC;
     color:#0065FC;
-    padding-top: 25px;
+    
    padding: 25px;
 }
 
