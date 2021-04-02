@@ -341,10 +341,11 @@ h1 br {
   #filtres_container ul {
     flex-direction: column;
     flex-wrap: wrap;
-  
-  
    
-  
+  }
+
+  #filtres_container ul li {
+    margin-bottom: 20px;/*espace vertical entre les différents filtres*/
   }
 
   .fa-money-bill-wave,.fa-child,.fa-heart,.fa-dog{
