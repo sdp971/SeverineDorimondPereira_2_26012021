@@ -20,6 +20,7 @@ body
 @media all and (max-device-width: 480px){
   #bloc_page{
     width: auto;
+   
     
   }
 }
@@ -310,15 +311,10 @@ h1 br {
   
 }
 
-  #bloc_formulaire h1,p{
-    text-align: left;
-    padding-left: 10px;
-
-  }
-
-  
-
- 
+#bloc_formulaire h1{
+  padding-left: 10px;
+}
+   
  h1 br {
    display:inline-block;
   }
@@ -414,7 +410,18 @@ margin-right: 7px; /*space between*/
               
     }
 
-    
+    @media all and (max-device-width: 480px){
+      #infos_container{
+        margin-bottom: 20px;
+      }
+
+      #texte_container p br {
+        display:inline-block;
+       }
+    }
+
+   
+
 /* Corps */
 
 #bloc_hebergements
@@ -489,7 +496,8 @@ font-weight:bold;
 @media all and (max-device-width: 480px){
   #bloc_hebergements{
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
+    
    
     
   }
@@ -575,7 +583,26 @@ aside
     
 }
 
+@media all and (max-device-width: 480px){
+  aside{
+    width: 100%;
+    border-radius: 0;
+    
+       
+   
+  }
 
+  #hebergements_container{
+   
+   width: 100%;
+   
+
+  }
+
+  
+
+  
+}
 
   /* Styles pour le bloc les plus populaires */
 
