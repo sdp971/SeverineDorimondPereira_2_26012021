@@ -63,53 +63,46 @@ header
     width: auto;
     border-bottom: 2px solid #DEEBFF ;
     margin-bottom: 10px;
-
     
+
     
   }
   #titre-principal{
-    width: 200px;
-    margin-right: 140px;
+    width: 100%;
+   
+    
   }
 
   .cta{
     position:absolute;
-    right:50px;
+    right:10px;
     top: 30px;
-    
-   
-    
+       
     
   }
-  .item_1{
-position: absolute;
-right: 25px;
-position: relative;
-padding: 10px;
-
+  
+ 
+nav ul li {
+ width: 50%;
+ 
 }
 
- .item_2 {
-padding-right: 37px;
-position: relative;
-padding: 10px;
 
 
-
-
+.item_2{
+  margin-left:57px ;
 }
+
 
 .item_1::after {
   content: "";
   position: absolute;
   background: #0065fc;
-  height: 2px;
+  height: 4px;
   left: 0px;
   right: 0px;
-  bottom: -18px;
-  transition: .25s ease-in-out;
-  opacity: 0;
-  transform: scaleX(.5);
+  bottom: -3px;
+  width: 50%;
 }
 
 .item_1:hover::after {
@@ -121,13 +114,11 @@ padding: 10px;
   content: "";
   position: absolute;
   background: #0065fc;
-  height: 2px;
+  height: 4px;
   left: 0px;
   right: 0px;
-  bottom: -18px;
-  transition: .25s ease-in-out;
-  opacity: 0;
-  transform: scaleX(.5);
+  bottom: -3px;
+  width: 50%;
 }
 
 .item_2:hover::after {
@@ -137,10 +128,7 @@ padding: 10px;
 
 
 
- nav a:hover
-{
-    border-top:none;
-}
+
 
  
 
@@ -316,6 +304,7 @@ h1 br {
  
   #bloc_formulaire{
   padding-top: 20px;
+  
 }
 
   #bloc_formulaire h1,p{
@@ -339,29 +328,27 @@ h1 br {
   }
 
   #filtres_container ul {
-    flex-direction: column;
+    
     flex-wrap: wrap;
+    padding: 0px;
+    margin:0px;
+   
+
+       
+    
    
   }
 
   #filtres_container ul li {
     margin-bottom: 20px;/*espace vertical entre les différents filtres*/
+   
   }
 
-  .fa-money-bill-wave,.fa-child,.fa-heart,.fa-dog{
-    
-    display: flex;
-    text-align: center;
-    color: green;
-    background-color: #DEEBFF;
-    width: 36px;
-    height: 36px;
-    border: 1px solid#DEEBFF;
-    border-radius: 60%;
-    margin-right: 7px; /*space between*/
-    }
-    
-  }
+ 
+
+ 
+ 
+}
 
 
 
@@ -869,4 +856,5 @@ box-shadow: 3px 3px 3px #DEEBFF;
   width:80%;
   justify-content:space-between;
 }
+
       
