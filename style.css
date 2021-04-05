@@ -126,11 +126,12 @@ nav ul li {
   transform: scaleX(1);
 }
 
+nav ul a:hover  {
+  
+  border-top-style: none;
 
+}
 
-
-
- 
 
 }
  
