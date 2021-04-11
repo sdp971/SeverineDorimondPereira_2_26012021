@@ -6,7 +6,7 @@ body
 }
 #bloc_page
 {
-    width: 1150px;
+    max-width: 1200px;
     margin: auto;
 }
 
@@ -20,7 +20,7 @@ body
 @media all and (max-device-width: 480px){
   #bloc_page{
     width: auto;
-  overflow: hidden;
+  
   }
 
   body{
@@ -213,7 +213,9 @@ nav a:hover
 .search_container{
     display: grid;
     grid-template-columns:1.5rem 4fr 1fr;
-    width:340px;
+    width:90%;
+    max-width:400px;
+    min-width: 305px;
     
     border: 1px solid #F2F2F2;
     border-radius: 0px 10px 10px 0px;
@@ -445,6 +447,7 @@ padding:20px ;
 width:70%;
 background-color: #F2F2F2;
 border-radius: 25px;
+box-sizing: border-box;
 }
 
 
@@ -526,6 +529,7 @@ font-weight:bold;
    
   }
 
+  
 
   
   }
@@ -834,11 +838,9 @@ box-shadow: 3px 3px 3px #a9a9a9;
   justify-content:space-between;
   display: flex;
   flex-direction: row;
-  align-self: start;
+  align-self: stretch;
   padding: 5px;
-  
-  
-     
+    
      
     
 }
