@@ -430,6 +430,11 @@ margin-right: 7px; /*space between*/
               
     }
 
+    #texte_container p br {
+
+      display: none;
+    }
+
     @media all and (max-device-width: 480px){
       #infos_container{
         margin-bottom: 20px;
