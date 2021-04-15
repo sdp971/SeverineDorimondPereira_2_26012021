@@ -6,7 +6,7 @@ body
 }
 #bloc_page
 {
-    max-width: 1200px;
+    max-width: 1300px;
     margin: auto;
 }
 
@@ -462,12 +462,12 @@ margin-right: 7px; /*space between*/
 
 
 #hebergements_container{
-margin: 10px;
-padding:20px ;
+
 width:70%;
 background-color: #F2F2F2;
 border-radius: 25px;
 box-sizing: border-box;
+margin-right: 10px;
 }
 
 
@@ -595,6 +595,7 @@ color:#0065FC;
     flex-direction:row;
      flex-wrap: wrap;
      justify-content:space-around;
+     padding: 20px;
      
     
 }
@@ -604,7 +605,6 @@ color:#0065FC;
 aside
 {
   width:30%;
-  padding:10px;
   background-color: #F2F2F2;
   border-radius: 25px;
     
@@ -622,7 +622,7 @@ aside
   #hebergements_container{
    
    width: 100%;
-   
+  
 
   }
 
@@ -639,7 +639,7 @@ aside
     align-items:center;
     flex-direction:column;
     justify-content: space-around;
-    margin-bottom: 15px;
+    margin-bottom: 55px;
 }
 article{
     display: flex;
@@ -715,7 +715,7 @@ article{
         flex-direction:row;
         align-items: baseline;
         justify-content: space-between;
-        padding: 10px;
+        
       }
 
       #fa-chart-line i{
@@ -751,8 +751,8 @@ object-fit: cover;
 
 .banniere_image_activites_vertical_un img {
 
-    width:260px;
-    height:190px;
+    width:302px;
+    height:182px;
     padding:0px;
    
     
@@ -766,7 +766,7 @@ box-shadow: 3px 3px 3px #a9a9a9;
 
 .banniere_image_activites_vertical_deux img {
 
-    width:260px;
+    width:302px;
     height:110px;
     padding:0px;
    
@@ -835,15 +835,15 @@ box-shadow: 3px 3px 3px #a9a9a9;
       
 #banniere_description_activites_vertical{
     border-radius: 0px 0px 10px 10px;
-    height: 40px;
+    height: 60px;
     
     background-color:white;
     color: black;
     font-size: 0.7em;
-    margin-bottom: 20px;
+    margin-bottom:20 px;
     font-weight: bold;
-    padding-left: 10px;
-    line-height: 2px;
+    padding-left: 16px;
+    line-height: px;
     box-shadow: 3px 3px 3px #a9a9a9;
  
     
@@ -857,9 +857,7 @@ box-shadow: 3px 3px 3px #a9a9a9;
     
   justify-content:space-between;
   display: flex;
-  flex-direction: row;
-  align-self: stretch;
-  padding: 5px;
+
     
      
     
@@ -869,7 +867,8 @@ box-shadow: 3px 3px 3px #a9a9a9;
    display: flex;
    flex-direction: column;
    justify-content: space-between;
-   padding: 20px;
+   align-items: start;
+  margin-bottom: 20px;
    
 
    
