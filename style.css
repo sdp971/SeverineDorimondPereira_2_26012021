@@ -218,7 +218,7 @@ nav a
     min-width: 305px;
     
     border: 1px solid #F2F2F2;
-    border-radius: 0px 10px 10px 0px;
+    border-radius: 7px 10px 10px 7px;
   margin-bottom: 10px;
   
  
@@ -234,7 +234,7 @@ padding: 0.4rem;
   grid-column:1/2;
   z-index:2;
   border: 1px solid #F2F2F2;
-  text-align: center;
+  align-self: center;
    font-size: 0.9em;
    color: #0065FC;
    background-color:#F2F2F2 ;
@@ -281,7 +281,7 @@ padding: 0.4rem;
   #bloc_filtres li
 {
     margin-right: 30px;
-    border: 1px solid#DEEBFF;
+    border: 1px solid#F2F2F2;
     border-radius: 25px 25px 25px 25px;
     padding-right: 10px;
    
@@ -627,7 +627,7 @@ aside
   #hebergements_container{
    
    width: 100%;
-  
+  background-color: white;
 
   }
 
