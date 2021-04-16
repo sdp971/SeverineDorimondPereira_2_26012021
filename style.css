@@ -164,12 +164,12 @@ nav a
     text-decoration: none;
 }
 
-nav a:hover
+.menu_navigation a:hover
 {
     border-top:solid 2px #0065FC;
     color:#0065FC;
     
-   padding: 25px;
+   padding: 22px;
 }
 
 
@@ -347,6 +347,7 @@ h1 br {
 
   #filtres_container ul li {
     margin-bottom: 20px;/*espace vertical entre les différents filtres*/
+    
    
   }
 
@@ -549,7 +550,9 @@ font-weight:bold;
    
   }
 
-  
+  .banniere_image img{
+    width:330px;
+    height:150px;}
 
   
   }
@@ -881,6 +884,46 @@ box-shadow: 3px 3px 3px #a9a9a9;
     
     
 }
+@media all and (max-device-width: 480px){
+  #activites_container{
+    margin-left: 15px;
+  }
+
+  .banniere_image_activites img{
+    width:330px;
+    height:150px;
+  }
+
+  .banniere_image_activites_vertical_deux img {
+
+    width:330px;
+    height:150px;
+    
+  }
+
+  .banniere_image_activites_vertical_un img {
+    width:330px;
+    height:150px;
+  }
+
+  #banniere_description_activites{
+    height: 60px;
+  }
+  .banniere_image_activites_vertical_deux{
+  padding: 15px;  
+      
+      
+      
+  }
+
+  
+}
+ 
+    
+   
+
+  
+  
 
 
     /* Footer */
