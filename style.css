@@ -96,7 +96,7 @@ nav ul li {
 
 
 .item_2{
-  margin-left:57px ;
+  text-align: center ;
 }
 
 
@@ -137,8 +137,15 @@ nav ul a:hover  {
 
 }
 
+.signup{
+  position: absolute;
+  right: 22px;
+  top:1px;
+}
 
-
+.item_1{
+  text-align: center;
+}
 }
 
 
@@ -149,13 +156,10 @@ nav ul
 {
     list-style-type: none;
     display: flex;
+    padding: 0;
 }
 
-nav li
-{
-    margin-right: 30px;
-  
-}
+
 
 nav a
 {
@@ -212,11 +216,10 @@ nav a
 
 .search_container{
     display: grid;
-    grid-template-columns:auto 1fr 1fr;
+    grid-template-columns:auto 4fr 1fr;
     width:90%;
     max-width:400px;
     min-width: 305px;
-    
     border: 1px solid #F2F2F2;
     border-radius: 7px 10px 10px 7px;
   margin-bottom: 10px;
