@@ -198,7 +198,7 @@ nav a
 
 .searchbox{
     border:0px;
-    padding: 0.3rem;
+    padding-left: 28px;
     grid-column:2/4;
     grid-row:1;
     outline:none;
@@ -229,15 +229,16 @@ nav a
   }
 
 .searchicon{
-padding: 0.4rem;
-  grid-row:1;
-  grid-column:1/2;
-  z-index:2;
+
+  display:flex;
+  flex-direction: column;
   border: 1px solid #F2F2F2;
-  align-self: center;
-   font-size: 0.9em;
-   color: #0065FC;
-   background-color:#F2F2F2 ;
+  align-content: center;
+  width: 27px;
+  justify-content: center;
+  font-size: 0.9em;
+  color: #0065FC;
+  background-color:#F2F2F2 ;
 }
 ::placeholder {
     color: black;
@@ -368,6 +369,12 @@ display: none;
     border-radius: 10px 10px 10px 10px;
     grid-column:4/5;
     grid-row:1;
+}
+
+.menu_navigation a:hover
+{
+    border-top-color: transparent;
+    
 }
  
 }
@@ -551,7 +558,7 @@ font-weight:bold;
   }
 
   .banniere_image img{
-    width:330px;
+    width:310px;
     height:150px;}
 
   
@@ -885,36 +892,29 @@ box-shadow: 3px 3px 3px #a9a9a9;
     
 }
 @media all and (max-device-width: 480px){
-  #activites_container{
-    margin-left: 15px;
-  }
+ 
 
   .banniere_image_activites img{
-    width:330px;
+    width:320px;
     height:150px;
   }
 
   .banniere_image_activites_vertical_deux img {
 
-    width:330px;
+    width:320px;
     height:150px;
     
   }
 
   .banniere_image_activites_vertical_un img {
-    width:330px;
+    width:320px;
     height:150px;
   }
 
   #banniere_description_activites{
     height: 60px;
   }
-  .banniere_image_activites_vertical_deux{
-  padding: 15px;  
-      
-      
-      
-  }
+  
 
   
 }
