@@ -159,7 +159,9 @@ nav ul
     padding: 0;
 }
 
-
+nav li {
+  margin-right: 30px;
+}
 
 nav a
 {
@@ -552,6 +554,7 @@ font-weight:bold;
     display: flex;
     flex-wrap: wrap;
     max-width: 200px;
+    justify-content: center;
   }
 
   #footer_container{
@@ -642,9 +645,10 @@ aside
 
   }
 
- 
+  .titre-bloc-hebergements {
+    margin-left: 40px;
   
-
+  }
   
 }
 
@@ -747,6 +751,7 @@ article{
 .banniere_image_activites{
     display:flex;
     flex-direction:column;
+   
  
     
    
@@ -828,6 +833,7 @@ box-shadow: 3px 3px 3px #a9a9a9;
     border-radius: 25px;
     display: flex;
     padding-bottom: 20px;
+    
    
     
     }
@@ -917,12 +923,32 @@ box-shadow: 3px 3px 3px #a9a9a9;
 
   #banniere_description_activites{
     height: 60px;
+    margin-bottom: 0px;
   }
   
 
-  
+  #activites_container{
+    align-items: center;
+  }
+
+  #index_activites2{
+    
+    justify-content:center;
+    
+        
+  } 
+
+  article{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 15px;
+  }
+
+  .titre-bloc-activites{ 
+  margin-right: 60px;
 }
- 
+}
     
    
 
