@@ -39,7 +39,9 @@ body
     margin:0;
   }
 
-
+h1 {
+  text-align: center;
+}
   
 }
 
@@ -185,13 +187,17 @@ nav a
     padding-bottom: 3px;
     text-decoration: none;
 }
+.menu_navigation a{
+  border-top: solid 2px transparent;
+  padding: 22px 4px;
+}
 
 .menu_navigation a:hover
 {
-    border-top:solid 2px #0065FC;
+    border-top-color:#0065FC;
     color:#0065FC;
     
-   padding: 22px;
+   
 }
 
 
@@ -209,7 +215,7 @@ nav a
 }
 
 .searchbutton{
-    background:#0065FC;
+    background:#0065fc;
     border: 0;
     color: white;
     padding: 0.9rem;
@@ -319,6 +325,10 @@ nav a
    
 }
 
+#filtres_container li:hover a {
+  color: #0065fc;
+}
+
 #bloc_filtres a
 {
     font-size: 1em;
@@ -373,6 +383,8 @@ h1 br {
       
     
   }
+
+  
 
   #filtres_container ul li {
     margin-bottom: 20px;/*espace vertical entre les différents filtres*/
@@ -847,6 +859,12 @@ article{
 
           
       }
+
+      @media screen and (min-width:968px) and (max-device-width: 1147px) {
+      .banniere_description_populaires{
+        width: 150px;
+      }
+      }
       
       /* Styles du titre du bloc activités */
 
@@ -973,7 +991,7 @@ box-shadow: 3px 3px 3px #a9a9a9;
     max-width: 100%;
 }
 .banniere_image_activites_vertical_un img {
-  width: 100%;
+  width: 98%;
   height: 160px;}
 
   .banniere_image_activites_vertical_deux img {
