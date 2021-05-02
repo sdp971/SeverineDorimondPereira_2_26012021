@@ -921,7 +921,7 @@ box-shadow: 3px 3px 3px #a9a9a9;
 
 }
 
-  #banniere_description_activites{
+  .banniere_description_activites{
 
     border-radius: 0px 0px 10px 10px;
     height: 50px;
@@ -1082,7 +1082,7 @@ article.banniere_image{
     height:150px;
   }
 
-  #banniere_description_activites{
+  .banniere_description_activites{
     height: 60px;
     margin-bottom: 0px;
   }
