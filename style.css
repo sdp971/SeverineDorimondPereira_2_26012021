@@ -250,6 +250,13 @@ nav a
   
  
 }
+@media all and (max-device-width: 280px){
+ .search_container{
+  width: 98%;
+  max-width: none;
+  min-width: revert;
+}
+}
 
 .searchcontainer:focus-within .searchbox{
     grid-column:1/4;
@@ -558,6 +565,12 @@ box-shadow: 3px 3px 3px #a9a9a9;
 
     }
 
+    @media all and (max-device-width: 280px){
+      .banniere_image img {
+        max-width: 240px;
+      }
+    }
+
 .banniere_description
 {
  
@@ -616,7 +629,6 @@ font-weight:bold;
   #index_activites2{
     display: flex;
     flex-wrap: wrap;
-    max-width: 200px;
     justify-content: center;
   }
 
@@ -848,6 +860,15 @@ article{
       
       }
 
+      @media all and (max-device-width: 280px){
+        .banniere_image_populaires img{
+          width: 100px;
+        }
+        .banniere_description_populaires{
+          height: 123px;
+          width: fit-content;
+        }
+      }
       @media screen and (min-width:480px) and (max-device-width: 967px) {
         #index_populaires {
           align-items: unset;}
@@ -1038,9 +1059,10 @@ article.banniere_image{
     
 #index_activites2{
     
-  justify-content:space-between;
-  display: flex;
-  flex-wrap: wrap;
+  justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 
     
      
