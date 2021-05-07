@@ -813,9 +813,10 @@ header {
         display: flex;
         flex-direction: column;
         max-width: 100%;
+        height:300px;
     }
     .banniere_image_activites_vertical_un img {
-        width: 98%;
+        width: 100%;
         height: 160px;
     }
     .banniere_image_activites_vertical_deux img {
