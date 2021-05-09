@@ -408,7 +408,7 @@ article {
 }
 
 #fa-chart-line i {
-    font-size: 1.em;
+    font-size: 1.0em;
 }
 
 
@@ -486,10 +486,10 @@ article {
     background-color: white;
     color: black;
     font-size: 0.7em;
-    margin-bottom: 20 px;
+    
     font-weight: bold;
     padding-left: 16px;
-    line-height: px;
+   
     box-shadow: 3px 3px 3px #a9a9a9;
 }
 
