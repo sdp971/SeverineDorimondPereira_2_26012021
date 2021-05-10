@@ -101,7 +101,6 @@ nav a {
 .searchicon {
     display: flex;
     flex-direction: column;
-    border: 1px solid #F2F2F2;
     align-content: center;
     justify-content: center;
     font-size: 0.9em;
@@ -178,7 +177,6 @@ h1 br {
     background-color: #DEEBFF;
     width: 36px;
     height: 36px;
-    border: 1px solid#DEEBFF;
     border-radius: 60%;
     margin-right: 7px;
     /*space between*/
@@ -187,7 +185,6 @@ h1 br {
 #bloc_filtres a i {
     font-size: 15px;
     line-height: 38px;
-    color: #0065FC;
 }
 
 
@@ -252,7 +249,6 @@ a:link {
     width: 240px;
     height: 110px;
     padding: 5px;
-    border: 2px solid white;
     background-color: white;
     border-radius: 25px 25px 0px 0px;
     object-fit: cover;
@@ -359,13 +355,13 @@ article {
 
 .banniere_image_populaires img {
     width: 110px;
-    height: 110px;
+    height: 114px;
     padding: 5px;
-    border: 2px solid white;
     background-color: white;
     border-radius: 20px 0px 0px 20px;
     object-fit: cover;
     box-shadow: 3px 3px 3px #a9a9a9;
+    margin-top: -1px;
 }
 
 .banniere_description_populaires {
@@ -656,7 +652,6 @@ header {
         padding: 0px;
         margin: 0px;
         padding-left: 10px;
-        margin-block-start: auto;
     }
     #filtres_container ul li {
         margin-bottom: 20px;
