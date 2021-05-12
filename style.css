@@ -558,6 +558,42 @@ header {
 
 
 /* MEDIA QUERIES */
+@media all and (max-width: 280px) {
+    .search_container {
+        width: 70%;
+        min-width: 250px;
+    }
+    .searchbox {
+        padding-left: 10px;
+    }
+    .banniere_image_populaires {
+        max-width: 273px;
+    }
+    .banniere_image img {
+        max-width: 260px;
+    }
+    .titre-bloc-activites h2 {
+        text-align: center;
+    }
+    .banniere_image_activites img {
+        max-width: 260px;
+    }
+    .banniere_image_activites {
+        max-width: 270px;
+    }
+    .banniere_image_activites_vertical_un {
+        max-width: 260px;
+    }
+    .banniere_image_activites_vertical_un img {
+        max-width: 260px;
+    }
+    .banniere_image_activites_vertical_deux {
+        max-width: 270px;
+    }
+    .banniere_image_activites_vertical_deux img {
+        max-width: 260px;
+    }
+}
 
 @media all and (max-width: 480px) {
     #bloc_page {
